@@ -1,0 +1,20 @@
+{
+  "eda_hqnn_base8": {
+    "model": "HQNN_8q",
+    "features": "BASE-8",
+    "f1": 0.6286,
+    "acc": 0.6305,
+    "recall_large": 0.6562,
+    "recall_medium": 0.4275,
+    "recall_small": 0.8421
+  },
+  "eda_hqnn_eda8": {
+    "model": "HQNN_8q",
+    "features": "EDA-8",
+    "f1": 0.5484,
+    "acc": 0.5513,
+    "recall_large": 0.6771,
+    "recall_medium": 0.3053,
+    "recall_small": 0.7281
+  }
+}

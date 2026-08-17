@@ -1,0 +1,62 @@
+{
+  "xgb_A_scan_full24": {
+    "tag": "A  XGB scan-level \u00b7 FULL-24 \u00b7 standard params",
+    "f1": 0.625,
+    "acc": 0.7578,
+    "recall_large": 0.8473,
+    "recall_medium": 0.511,
+    "recall_small": 0.4482,
+    "n_features": 24,
+    "n_train": 23921
+  },
+  "xgb_B_5min_full24": {
+    "tag": "B  XGB 5-min strided \u00b7 FULL-24 \u00b7 standard params",
+    "f1": 0.7043,
+    "acc": 0.8157,
+    "recall_large": 0.8775,
+    "recall_medium": 0.7507,
+    "recall_small": 0.4618,
+    "n_features": 24,
+    "n_train": 4911
+  },
+  "xgb_C_scan_em10": {
+    "tag": "C  XGB scan-level \u00b7 EM-10 only",
+    "f1": 0.6519,
+    "acc": 0.763,
+    "recall_large": 0.7818,
+    "recall_medium": 0.8581,
+    "recall_small": 0.491,
+    "n_features": 10,
+    "n_train": 23921
+  },
+  "xgb_D_scan_kin14": {
+    "tag": "D  XGB scan-level \u00b7 KIN-14 only",
+    "f1": 0.4252,
+    "acc": 0.6358,
+    "recall_large": 0.7673,
+    "recall_medium": 0.2006,
+    "recall_small": 0.2824,
+    "n_features": 14,
+    "n_train": 23921
+  },
+  "xgb_E_scan_deep": {
+    "tag": "E  XGB scan-level \u00b7 FULL-24 \u00b7 depth=8, n_est=800",
+    "f1": 0.624,
+    "acc": 0.761,
+    "recall_large": 0.854,
+    "recall_medium": 0.5072,
+    "recall_small": 0.4348,
+    "n_features": 24,
+    "n_train": 23921
+  },
+  "xgb_F_scan_lowlr": {
+    "tag": "F  XGB scan-level \u00b7 FULL-24 \u00b7 lr=0.02, n_est=1000",
+    "f1": 0.6791,
+    "acc": 0.7902,
+    "recall_large": 0.8438,
+    "recall_medium": 0.7539,
+    "recall_small": 0.4478,
+    "n_features": 24,
+    "n_train": 23921
+  }
+}

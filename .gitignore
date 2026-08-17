@@ -1,0 +1,29 @@
+# Data — proprietary radar data never committed
+*.csv
+*.parquet
+*.h5
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files — only champion pkl files in models/ are committed
+# (no blanket *.pkl exclusion here — champion files are explicitly staged)
+*.pt
+*.joblib
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

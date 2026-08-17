@@ -1,0 +1,101 @@
+{
+  "thesis_modelB_scan": {
+    "condition": "Thesis Model-B (4f)",
+    "window": "scan",
+    "f1": 0.4017,
+    "acc": 0.5652,
+    "recall_large": 0.6454,
+    "recall_medium": 0.2449,
+    "recall_small": 0.4267,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "thesis_5feat_scan": {
+    "condition": "Thesis 5-feat",
+    "window": "scan",
+    "f1": 0.5,
+    "acc": 0.64,
+    "recall_large": 0.6718,
+    "recall_medium": 0.2684,
+    "recall_small": 0.9295,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "et_base24_scan": {
+    "condition": "ET BASE-24",
+    "window": "scan",
+    "f1": 0.6894,
+    "acc": 0.805,
+    "recall_large": 0.8683,
+    "recall_medium": 0.7383,
+    "recall_small": 0.4344,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "thesis_modelB_5min": {
+    "condition": "Thesis Model-B (4f)",
+    "window": "5-min",
+    "f1": 0.4244,
+    "acc": 0.5919,
+    "recall_large": 0.6763,
+    "recall_medium": 0.234,
+    "recall_small": 0.4873,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "thesis_5feat_5min": {
+    "condition": "Thesis 5-feat",
+    "window": "5-min",
+    "f1": 0.5137,
+    "acc": 0.6567,
+    "recall_large": 0.6939,
+    "recall_medium": 0.2674,
+    "recall_small": 0.9354,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "et_base24_5min": {
+    "condition": "ET BASE-24",
+    "window": "5-min",
+    "f1": 0.675,
+    "acc": 0.7925,
+    "recall_large": 0.8493,
+    "recall_medium": 0.7437,
+    "recall_small": 0.4521,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "thesis_modelB_30min": {
+    "condition": "Thesis Model-B (4f)",
+    "window": "30-min",
+    "f1": 0.4394,
+    "acc": 0.6053,
+    "recall_large": 0.692,
+    "recall_medium": 0.2449,
+    "recall_small": 0.53,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "thesis_5feat_30min": {
+    "condition": "Thesis 5-feat",
+    "window": "30-min",
+    "f1": 0.5272,
+    "acc": 0.6561,
+    "recall_large": 0.692,
+    "recall_medium": 0.3129,
+    "recall_small": 0.91,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "et_base24_30min": {
+    "condition": "ET BASE-24",
+    "window": "30-min",
+    "f1": 0.6951,
+    "acc": 0.8011,
+    "recall_large": 0.8596,
+    "recall_medium": 0.7143,
+    "recall_small": 0.52,
+    "n_train": 3893,
+    "n_test": 945
+  }
+}

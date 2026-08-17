@@ -1,0 +1,110 @@
+{
+  "et_scan_base24": {
+    "model": "ET",
+    "features": "BASE-24",
+    "window": "scan",
+    "f1": 0.6894,
+    "acc": 0.805,
+    "recall_large": 0.8683,
+    "recall_medium": 0.7383,
+    "recall_small": 0.4344,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "et_scan_eda18": {
+    "model": "ET",
+    "features": "EDA-18",
+    "window": "scan",
+    "f1": 0.5428,
+    "acc": 0.6592,
+    "recall_large": 0.6806,
+    "recall_medium": 0.7475,
+    "recall_small": 0.3778,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "et_scan_full42": {
+    "model": "ET",
+    "features": "FULL-42",
+    "window": "scan",
+    "f1": 0.5621,
+    "acc": 0.7388,
+    "recall_large": 0.8685,
+    "recall_medium": 0.2863,
+    "recall_small": 0.4242,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "et_5min_base24": {
+    "model": "ET",
+    "features": "BASE-24",
+    "window": "5-min",
+    "f1": 0.675,
+    "acc": 0.7925,
+    "recall_large": 0.8493,
+    "recall_medium": 0.7437,
+    "recall_small": 0.4521,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "et_5min_eda18": {
+    "model": "ET",
+    "features": "EDA-18",
+    "window": "5-min",
+    "f1": 0.5586,
+    "acc": 0.6711,
+    "recall_large": 0.6955,
+    "recall_medium": 0.7465,
+    "recall_small": 0.3894,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "et_5min_full42": {
+    "model": "ET",
+    "features": "FULL-42",
+    "window": "5-min",
+    "f1": 0.6719,
+    "acc": 0.7929,
+    "recall_large": 0.8504,
+    "recall_medium": 0.7535,
+    "recall_small": 0.4344,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "et_30min_base24": {
+    "model": "ET",
+    "features": "BASE-24",
+    "window": "30-min",
+    "f1": 0.6951,
+    "acc": 0.8011,
+    "recall_large": 0.8596,
+    "recall_medium": 0.7143,
+    "recall_small": 0.52,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "et_30min_eda18": {
+    "model": "ET",
+    "features": "EDA-18",
+    "window": "30-min",
+    "f1": 0.579,
+    "acc": 0.6794,
+    "recall_large": 0.7034,
+    "recall_medium": 0.7007,
+    "recall_small": 0.48,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "et_30min_full42": {
+    "model": "ET",
+    "features": "FULL-42",
+    "window": "30-min",
+    "f1": 0.5876,
+    "acc": 0.7418,
+    "recall_large": 0.8596,
+    "recall_medium": 0.3537,
+    "recall_small": 0.49,
+    "n_train": 3893,
+    "n_test": 945
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "xgb_base24": {
+    "model": "XGB",
+    "features": "BASE-24",
+    "f1": 0.625,
+    "acc": 0.7578,
+    "recall_large": 0.8473,
+    "recall_medium": 0.511,
+    "recall_small": 0.4482
+  },
+  "xgb_eda18": {
+    "model": "XGB",
+    "features": "EDA-18",
+    "f1": 0.544,
+    "acc": 0.6444,
+    "recall_large": 0.643,
+    "recall_medium": 0.8188,
+    "recall_small": 0.4091
+  },
+  "xgb_full42": {
+    "model": "XGB",
+    "features": "FULL-42",
+    "f1": 0.643,
+    "acc": 0.7864,
+    "recall_large": 0.887,
+    "recall_medium": 0.5153,
+    "recall_small": 0.4295
+  },
+  "dl_base24": {
+    "model": "DL ResNet",
+    "features": "BASE-24",
+    "f1": 0.6002,
+    "acc": 0.6953,
+    "recall_large": 0.702,
+    "recall_medium": 0.8376,
+    "recall_small": 0.4454
+  },
+  "dl_eda18": {
+    "model": "DL ResNet",
+    "features": "EDA-18",
+    "f1": 0.5498,
+    "acc": 0.6304,
+    "recall_large": 0.6141,
+    "recall_medium": 0.8688,
+    "recall_small": 0.4144
+  },
+  "dl_full42": {
+    "model": "DL ResNet",
+    "features": "FULL-42",
+    "f1": 0.6093,
+    "acc": 0.7259,
+    "recall_large": 0.7643,
+    "recall_medium": 0.7403,
+    "recall_small": 0.4238
+  },
+  "hqnn_base8": {
+    "model": "HQNN_8q",
+    "features": "BASE-8",
+    "f1": 0.6286,
+    "acc": 0.6305,
+    "recall_large": 0.6562,
+    "recall_medium": 0.4275,
+    "recall_small": 0.8421,
+    "note": "1500-sample cap"
+  },
+  "hqnn_eda8": {
+    "model": "HQNN_8q",
+    "features": "EDA-8",
+    "f1": 0.5484,
+    "acc": 0.5513,
+    "recall_large": 0.6771,
+    "recall_medium": 0.3053,
+    "recall_small": 0.7281,
+    "note": "1500-sample cap"
+  }
+}

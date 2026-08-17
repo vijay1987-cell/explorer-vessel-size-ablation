@@ -1,0 +1,110 @@
+{
+  "gbt_scan_base24": {
+    "model": "GBT",
+    "features": "BASE-24",
+    "window": "scan",
+    "f1": 0.7016,
+    "acc": 0.8187,
+    "recall_large": 0.8839,
+    "recall_medium": 0.7484,
+    "recall_small": 0.4393,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "gbt_scan_eda18": {
+    "model": "GBT",
+    "features": "EDA-18",
+    "window": "scan",
+    "f1": 0.5426,
+    "acc": 0.6475,
+    "recall_large": 0.6514,
+    "recall_medium": 0.8112,
+    "recall_small": 0.3883,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "gbt_scan_full42": {
+    "model": "GBT",
+    "features": "FULL-42",
+    "window": "scan",
+    "f1": 0.7108,
+    "acc": 0.8311,
+    "recall_large": 0.8951,
+    "recall_medium": 0.7898,
+    "recall_small": 0.4189,
+    "n_train": 99130,
+    "n_test": 23921
+  },
+  "gbt_5min_base24": {
+    "model": "GBT",
+    "features": "BASE-24",
+    "window": "5-min",
+    "f1": 0.7049,
+    "acc": 0.8222,
+    "recall_large": 0.8919,
+    "recall_medium": 0.7354,
+    "recall_small": 0.4423,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "gbt_5min_eda18": {
+    "model": "GBT",
+    "features": "EDA-18",
+    "window": "5-min",
+    "f1": 0.557,
+    "acc": 0.6549,
+    "recall_large": 0.6594,
+    "recall_medium": 0.8008,
+    "recall_small": 0.4168,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "gbt_5min_full42": {
+    "model": "GBT",
+    "features": "FULL-42",
+    "window": "5-min",
+    "f1": 0.7033,
+    "acc": 0.8222,
+    "recall_large": 0.8922,
+    "recall_medium": 0.7409,
+    "recall_small": 0.4325,
+    "n_train": 20330,
+    "n_test": 4911
+  },
+  "gbt_30min_base24": {
+    "model": "GBT",
+    "features": "BASE-24",
+    "window": "30-min",
+    "f1": 0.7194,
+    "acc": 0.8339,
+    "recall_large": 0.9054,
+    "recall_medium": 0.7619,
+    "recall_small": 0.44,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "gbt_30min_eda18": {
+    "model": "GBT",
+    "features": "EDA-18",
+    "window": "30-min",
+    "f1": 0.6072,
+    "acc": 0.6995,
+    "recall_large": 0.7235,
+    "recall_medium": 0.7415,
+    "recall_small": 0.47,
+    "n_train": 3893,
+    "n_test": 945
+  },
+  "gbt_30min_full42": {
+    "model": "GBT",
+    "features": "FULL-42",
+    "window": "30-min",
+    "f1": 0.7237,
+    "acc": 0.8317,
+    "recall_large": 0.8997,
+    "recall_medium": 0.7483,
+    "recall_small": 0.48,
+    "n_train": 3893,
+    "n_test": 945
+  }
+}
